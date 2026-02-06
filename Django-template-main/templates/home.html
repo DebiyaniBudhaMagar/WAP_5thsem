@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}
+   home
+{% endblock %}
+
+{% block content %}
+   <a href="{% url 'list_Value' %}" class = "btn btn-primary">FBV</a>
+   <a href="{% url 'listvaluecbv' %}" class = "btn btn-secondary">CBV</a>
+{% endblock %}
